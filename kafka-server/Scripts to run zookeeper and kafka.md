@@ -43,4 +43,11 @@ Note:
 ********************************************************************************************
 
 
-/home/adminspin/office/wsi/_xtra/kafka-server
+Run multiple commands together:-
+--------------------------------
+&& - means sequentially
+&  - means parallely
+
+./zookeeper/bin/zkServer.sh start & ./kafka/bin/kafka-server-start.sh ./kafka/config/server.properties
+
+./zookeeper/bin/zkServer.sh stop & ./kafka/bin/kafka-server-stop.sh
