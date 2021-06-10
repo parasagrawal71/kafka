@@ -1,0 +1,20 @@
+{
+  "prodConfig": {
+    "KAFKA_HOST_URL": "",
+    "TOPIC_NAME": "",
+    "CLIENT_ID": "",
+    "GROUP_ID": ""
+  },
+  "devConfig": {
+    "KAFKA_HOST_URL": "",
+    "TOPIC_NAME": "",
+    "CLIENT_ID": "",
+    "GROUP_ID": ""
+  },
+  "localKafkaConfig": {
+    "KAFKA_HOST_URL": "localhost:9092",
+    "TOPIC_NAME": "local-kafka-topic",
+    "CLIENT_ID": "local-kafka-client",
+    "GROUP_ID": "local-kafka-group"
+  }
+}
