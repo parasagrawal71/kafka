@@ -22,7 +22,7 @@ const kafkaFunction = async () => {
     ],
   });
   console.log("response:-");
-  console.dir(response, { depth: null, colors: true });
+  console.dir(response, { depth: null, colors: true }); 
   console.log("---Execution Finished---");
   process.exit(0);
 };
